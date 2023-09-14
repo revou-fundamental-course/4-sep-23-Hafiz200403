@@ -1,0 +1,100 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #007bff;
+    padding: 25px;
+}
+
+h2 {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+img{
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #007bff;
+    text-transform: uppercase;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #007bff;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 30px;
+    font-size: 26px;
+}
+
+span {
+    font-weight: bold;
+    color: #007bff;
+}
+
+#hasil{
+    font-size: 20px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    form {
+        padding: 20px;
+    }
+    
+    input {
+        padding: 12px;
+        font-size: 18px;
+    }
+    
+    button {
+        padding: 14px 24px;
+        font-size: 20px;
+    }
+}
